@@ -16,6 +16,8 @@ header.site-header {
     background-color: $brand-color;
     @include rotate(-30deg);
 
+    @include shadow(0px 10px 10px #888888);
+
     position: absolute;
     bottom: 20px;
     left: -100px;
@@ -28,6 +30,8 @@ header.site-header {
       border-top: 0;
       width: 100%;
       min-width: 100%;
+
+      @include shadow(none);
 
       text-align: left;
       @include rotate(0deg);
@@ -160,6 +164,7 @@ nav.site-nav {
  * Site footer
  */
 .site-footer {
+  background-color: $grey-color-light;
   padding: $spacing-unit 0;
 }
 

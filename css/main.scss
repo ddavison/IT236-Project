@@ -52,6 +52,13 @@ $back:             -10;
   -ms-transform: rotate($v);
 }
 
+@mixin shadow($a) {
+  box-shadow:         $a;
+  -moz-box-shadow:    $a;
+  -webkit-box-shadow: $a;
+  -o-box-shadow:      $a;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
