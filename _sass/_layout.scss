@@ -69,7 +69,7 @@ nav.site-nav {
   z-index: 1; /* should be top-most */
   line-height: 56px;
   margin-right: 100px;
-  margin-top: 4.5%;
+  margin-top: 65px;
 
   .menu-icon {
     display: none;
@@ -80,7 +80,6 @@ nav.site-nav {
     line-height: $base-line-height;
     padding: 5px;
     float: right;
-    border: 1px solid $grey-color-light;
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
@@ -88,7 +87,7 @@ nav.site-nav {
     }
 
     &.active {
-      border-bottom: 0;
+      border-bottom: 3px solid #000;
     }
 
     #link-container {
