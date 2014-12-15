@@ -3,7 +3,8 @@ title: The Importance of Test Automation
 subtitle: In a world of manual labor, make your life easier...
 email: djdavison@email.phoenix.edu
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://it236.ddavison.io" # the base hostname & protocol for your site
+#url: "http://it236.ddavison.io" # the base hostname & protocol for your site
+url: ""
 twitter_username: sircapsalot
 github_username:  ddavison
 class: IT-236

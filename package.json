@@ -1,0 +1,16 @@
+{
+  "name": "IT236-DDavison",
+  "description": "My IT-236 Final Project",
+  "author": "Daniel Davison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddavison/IT236-Project"
+  },
+  "homepage": "http://it236.ddavison.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-mkdir": "*",
+    "grunt-html-prettyprinter": "*"
+  }
+}
