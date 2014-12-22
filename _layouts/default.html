@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
+<body id="{{page.url | replace:'.html','' | replace:'/',''}}">
 <div id="doc-spacer"></div>
 {% include header.html %}
 <div class="page-content">
